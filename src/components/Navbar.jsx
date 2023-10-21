@@ -8,7 +8,7 @@ import { useState } from 'react';
 export default function Home() {
   const [navbar, setNavbar] = useState(false);
   return (
-    <div className="navbar bg-blue-300">
+    <nav className="navbar fixed z-40 bg-blue-100 drop-shadow-sm">
     <div className="navbar-start">
       <div className="dropdown">
         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
       <Link href="/">
-                <Image src="/logo.png" width={100} height={100} alt="logo"/>
+                <Image src="/skillsync.png" width={100} height={100} alt="logo"/>
       </Link>
 
       {/* <Link href="/" className="btn btn-ghost normal-case text-xl">daisyUI</Link> */}
@@ -61,6 +61,6 @@ export default function Home() {
       </ul>
     </div>
     </div>
-  </div>
+  </nav>
   );
 }

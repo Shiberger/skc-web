@@ -6,18 +6,6 @@ function Map() {
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-            {/* <iframe
-              width="100%"
-              height="100%"
-              className="absolute inset-0"
-              frameBorder={0}
-              title="map"
-              marginHeight={0}
-              marginWidth={0}
-              scrolling="no"
-              src="https://www.google.com/maps/dir//%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B9%82%E0%B8%A3%E0%B8%92+114+%E0%B8%8B.+%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%B8%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%97+23+%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%95%E0%B8%A2%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B7%E0%B8%AD+%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3+10110/@13.7438912,100.5661082,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x30e29ee109dab6e1:0xfd15aa1c632d9677!2m2!1d100.5661082!2d13.7438912?entry=ttu"
-              style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
-            /> */}
             <iframe
               width="100%"
               height="100%"
