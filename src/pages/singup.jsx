@@ -7,16 +7,13 @@ import Photo from "@/components/contents/Photo";
 import Ads from "@/components/contents/Ads";
 import Link from "next/link";
 import Signup from "@/components/Signup-form";
-import LoginForm from "@/components/Login-form";
 export default function Home() {
   return (
     <>
     <Link href="/home">
     <button className="btn btn-secondary">Home</button>
     </Link>
-    <LoginForm/>
-
-    
+    <Signup/>
     
 
       

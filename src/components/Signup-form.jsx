@@ -168,6 +168,21 @@ function Signup() {
                   />
                 </div>
 
+                <div className="col-span-6 sm:col-span-3">
+                  <label
+                    htmlFor="Role"
+                    className="block text-sm font-medium text-gray-700"
+                  >
+                    Are you ?
+                  </label>
+
+                  <select className="select select-bordered w-full max-w-xs shadow-sm mt-1">
+                    <option>Students</option>
+                    <option>Client</option>
+                  </select>
+  
+                </div>
+
                 <div className="col-span-6">
                   <label htmlFor="MarketingAccept" className="flex gap-4">
                     <input
@@ -205,7 +220,7 @@ function Signup() {
 
                   <p className="mt-4 text-sm text-gray-500 sm:mt-0">
                     Already have an account?
-                    <a href="#" className="text-gray-700 underline">
+                    <a href="/login" className="text-gray-700 underline">
                       Log in
                     </a>
                     .

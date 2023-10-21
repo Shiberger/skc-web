@@ -57,7 +57,11 @@ export default function Home() {
           </Link>
         </li>
         <li><a>Settings</a></li>
-        <li><a>Logout</a></li>
+        <li>
+          <Link href="/">
+            Logout
+          </Link>
+        </li>
       </ul>
     </div>
     </div>
