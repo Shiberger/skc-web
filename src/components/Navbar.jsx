@@ -16,7 +16,7 @@ export default function Home() {
         </label>
         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/home">Home</Link>
           </li>
           <li>
             <Link href="/service">Services</Link>
@@ -27,7 +27,7 @@ export default function Home() {
         </ul>
       </div>
 
-      <Link href="/">
+      <Link href="/home">
                 <Image src="/skillsync.png" width={100} height={100} alt="logo"/>
       </Link>
 
@@ -36,7 +36,7 @@ export default function Home() {
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/home">Home</Link>
         </li>
         <li><Link href="/service">Services</Link></li>
         <li><Link href="/contact">Contact</Link></li>
