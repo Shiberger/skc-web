@@ -1,15 +1,12 @@
-import React from 'react'
-import Map from '@/components/ctContact/Map'
+import React from "react";
+import Map from "@/components/ctContact/Map";
 
 function contact() {
   return (
     <>
-     <Map/>
-    
+      <Map />
     </>
-
-    
-  )
+  );
 }
 
-export default contact
+export default contact;

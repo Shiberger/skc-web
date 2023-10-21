@@ -1,15 +1,12 @@
-import React from 'react'
-import OurService from '@/components/ctService.jsx/OurService'
+import React from "react";
+import OurService from "@/components/ctService.jsx/OurService";
 
 function service() {
   return (
     <>
-      <OurService/>
-
-
+      <OurService />
     </>
-  
-  )
+  );
 }
 
-export default service
+export default service;

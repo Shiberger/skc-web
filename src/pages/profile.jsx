@@ -71,7 +71,6 @@ function profile() {
           </div>
         </div>
       </section>
-
     </>
   );
 }

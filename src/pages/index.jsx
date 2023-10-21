@@ -10,15 +10,11 @@ export default function Home() {
   return (
     <>
       {/* <Ourweb /> */}
-      <Student/>
-      <HeroService/>
-      <FAQ/>
-      <Ads/>
-      <Photo/>
-
-
-
-
+      <Student />
+      <HeroService />
+      <FAQ />
+      <Ads />
+      <Photo />
     </>
   );
 }
